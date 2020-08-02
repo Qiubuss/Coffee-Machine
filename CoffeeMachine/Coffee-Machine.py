@@ -122,7 +122,7 @@ def remaining():
     print_coffee(water, milk, beans, cups, money)
 
 while True:
-    bft = input("\nWrite action (buy, fill, take, remaning, exit):\n")
+    bft = input("\nWrite action (buy, fill, take, remaining, exit):\n")
     if bft == "buy":
         elc = input("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappucino:\n")
         if elc == "1":
